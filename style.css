@@ -1,0 +1,27 @@
+h2{
+    color: blue;
+}
+body{
+    font-family: sans-serif;
+    line-height: 1.5;
+    padding: 24px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+*{
+    box-sizing: border-box;
+}
+.service-card{
+    background-color: lightgrey;
+    padding: 20px;
+}
+.services{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+@media(max-width:600px){
+.services{
+    grid-template-columns: 1fr;
+}
+}
